@@ -1,0 +1,33 @@
+** 1ero:
+
+>> Esto es para que instale la libreria jest que es 
+>> para ejecutar el testing
+
+npm install 
+
+
+** 2do:
+
+se mueven hasta la carpeta src\07-12-2021
+
+>> alli cuando hallan hecho una funcion y quieren testear si esta bien 
+>> deben hacer lo siguiente:
+
+le quitan la 'x' al describe de la funcion que quieran testear:
+
+en el archivo 'ejercicios.test.js', si esta asi:
+
+xdescribe('sumOfArray')
+
+y quieren testear la funcion 'sumOfArray', dejen asi el describe:
+
+describe('sumOfArray')
+
+** 3ero
+
+>> ejecutan el test desde la consola con el siguiente comando:
+
+npm test -- ejercicios
+
+
+
